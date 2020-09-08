@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RandomWords</string>
+    <string name="getWordsString">Pobierz Słowa</string>
+    <string name="getAmountString">Wybierz ilość Tutaj</string>
+    <string name="chooseString">Wybierz</string>
+    <string name="backString">Cofnij</string>
+    <string name="yourWordsString">Twoje Słowa: </string>
+    <string name="changeBaseString">Dodaj/Usuń z bazy</string>
+    <string name="deleteWordsString">Usuń Słowo</string>
+    <string name="addWordString">Dodaj Słowo</string>
+    <string name="getWordString">Podaj Słowo</string>
+    <string name="_5">5</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <Button
+            android:text="@string/addWordString"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addButton"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="35dp"
+            app:layout_constraintTop_toBottomOf="@+id/getWord"/>
+
+    <Button
+            android:text="@string/deleteWordsString"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteButton"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="35dp"
+            app:layout_constraintTop_toBottomOf="@+id/addButton"/>
+
+    <EditText
+            android:text="@string/getWordString"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:id="@+id/getWord"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:inputType="text"
+            android:hint="@string/getWordString"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="100dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_horizontal"
+            android:autofillHints="słowo"/>
+
+    <Button
+            android:text="@string/backString"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:id="@+id/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
