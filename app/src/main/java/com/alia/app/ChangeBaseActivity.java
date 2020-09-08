@@ -1,4 +1,4 @@
-package com.alia.randomwords;
+package com.alia.app;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import com.alia.base.ManageWords;
+import com.alia.database.ManageWords;
 
 public class ChangeBaseActivity extends AppCompatActivity {
 

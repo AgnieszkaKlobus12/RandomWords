@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.alia.randomwords">
+          package="com.alia.app">
 
     <application
             android:allowBackup="true"
@@ -10,18 +10,18 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".ChangeBaseActivity">
+                android:name="com.alia.app.ChangeBaseActivity">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.alia.app.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ChooseNumberActivity">
+        <activity android:name="com.alia.app.ChooseNumberActivity">
         </activity>
-        <activity android:name=".ShowWordsActivity">
+        <activity android:name="com.alia.app.ShowWordsActivity">
         </activity>
     </application>
 

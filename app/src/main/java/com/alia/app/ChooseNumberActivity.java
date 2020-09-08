@@ -1,4 +1,4 @@
-package com.alia.randomwords;
+package com.alia.app;
 
 import android.app.Activity;
 import android.content.Context;

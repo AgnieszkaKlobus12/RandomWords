@@ -1,4 +1,4 @@
-package com.alia.base;
+package com.alia.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -46,10 +46,12 @@ public class DBHelper extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         Cursor cursor = db.rawQuery("select * from words where word=?", new String[]{word});
         if (cursor.getCount() == 0) {
+            cursor.close();
             contentValues.put("word", word);
             db.insert("words", null, contentValues);
             return true;
         }
+        cursor.close();
         return false;
     }
 

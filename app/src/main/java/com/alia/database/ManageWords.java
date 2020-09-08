@@ -1,4 +1,4 @@
-package com.alia.base;
+package com.alia.database;
 
 import android.content.Context;
 

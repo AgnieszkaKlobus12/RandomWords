@@ -1,4 +1,4 @@
-package com.alia.base;
+package com.alia.database;
 
 public class StartBase {
     ManageWords manageWords;
